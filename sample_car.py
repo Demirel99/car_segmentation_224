@@ -107,7 +107,7 @@ if __name__ == '__main__':
     parser.add_argument('--out', type=str, default="generated_car_sample.png", help="Output filename for the visualization grid.")
     parser.add_argument('--img_size', type=int, default=224, help='Image size (must match model).')
     parser.add_argument('--timesteps', type=int, default=200, help="Number of timesteps (must match training).")
-    parser.add_argument('--num_samples', type=int, default=1000, help="Number of samples to generate and create a union from.")
+    parser.add_argument('--num_samples', type=int, default=100, help="Number of samples to generate and create a union from.")
     # --- MODIFICATION: Removed threshold argument as it's no longer used ---
     
     args = parser.parse_args()
