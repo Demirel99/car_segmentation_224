@@ -127,7 +127,7 @@ if __name__ == '__main__':
     parser.add_argument('--img_dir', type=str, required=True, help='Path to the processed images directory.')
     parser.add_argument('--mask_dir', type=str, required=True, help='Path to the processed point masks directory.')
     parser.add_argument('--img_size', type=int, default=224, help='Image size for training.')
-    parser.add_argument('--epochs', type=int, default=300, help='Number of training epochs.')
+    parser.add_argument('--epochs', type=int, default=50, help='Number of training epochs.')
     parser.add_argument('--batch_size', type=int, default=64, help='Batch size for training.')
     parser.add_argument('--lr', type=float, default=1e-4, help='Learning rate.')
     parser.add_argument('--save_dir', type=str, default='results_car_points', help='Directory to save results.')
